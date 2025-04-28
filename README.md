@@ -1,4 +1,4 @@
-# Workshop-mad
+## Workshop-mad
 
 ## WORKSHOP: Develop an android application pass the data between the activities using Intent
 
@@ -7,8 +7,8 @@ To create a two screens , first screen will take name, age, contact number and e
 
 ## EQUIPMENTS REQUIRED:
 Latest Version Android Studio
-## ALGORITHM:
 
+## ALGORITHM:
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “workshop″ and click Next.
@@ -26,10 +26,11 @@ Step 7: Save and run the application.
 ## PROGRAM:
 ```
 Program to print the text “ExplicitIntent”.
-Developed by: BHUVANESHWARI S
-Registeration Number : 212222220008
+Developed by: Magesh V
+Registeration Number : 212222040092
 ```
 ## MainActivity.java:
+
 ```
 package com.example.workshop;
 import android.os.Bundle;
@@ -176,6 +177,7 @@ public class MainActivity2 extends AppCompatActivity {
         app:layout_constraintTop_toBottomOf="@id/editTextContactNumber" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 ```
 ## activity_second.xml:
 ```
@@ -258,12 +260,10 @@ public class MainActivity2 extends AppCompatActivity {
 
 </manifest>
 ```
-## Output
-![image](https://github.com/user-attachments/assets/dc39956e-599f-4a67-a336-c675ef120808)
-![image](https://github.com/user-attachments/assets/af0d80d9-7cc6-4220-9814-c15a4f5c1674)
 
+## Output:
+![image](https://github.com/user-attachments/assets/d4593e94-fe5c-4c0b-b740-b4fed4628372)
+![image](https://github.com/user-attachments/assets/e8ef4d77-872a-4dd7-a111-9af374871864)
 
-
-## Result
+## Result:
 Thus a Android Application create a Explicit Intents using Android Studio is developed and executed successfully.
-
